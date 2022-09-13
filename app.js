@@ -4,7 +4,7 @@ const express=require("express");
 
 const ejs=require("ejs");
 const bodyparser=require("body-parser");
-const md5=require("md5");
+const md5=require('md5');
 const app=express();
 app.use(bodyparser.urlencoded({extended:true}));
 app.set('view engine','ejs');
